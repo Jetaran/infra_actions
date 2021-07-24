@@ -40,7 +40,7 @@ jobs:
             username: jetar
             password: 4Fw6%zE08u^GgZX
         - name: Push to Docker Hub
-        uses: docker/build-push-action@v2
-        with:
-          push: true
-          tags: jetar/infra_actions:latest 
+          uses: docker/build-push-action@v2
+          with:
+            push: true
+            tags: jetar/infra_actions:latest 
